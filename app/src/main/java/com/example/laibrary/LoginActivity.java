@@ -47,7 +47,6 @@ public class LoginActivity extends AppCompatActivity {
         userRegistration = (TextView)findViewById(R.id.tvRegister);
 
 
-
         Info.setText("No of attemps remaining: 5");
 
         firebaseAuth = FirebaseAuth.getInstance();
