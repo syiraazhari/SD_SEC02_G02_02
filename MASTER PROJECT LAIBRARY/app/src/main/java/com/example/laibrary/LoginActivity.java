@@ -142,7 +142,7 @@ public class LoginActivity extends AppCompatActivity {
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     UserProfile userProfile = snapshot.getValue(UserProfile.class);
                     Log.i(TAG,"user role is " + userProfile.getUserRole());
-                    if (!userProfile.getUserRole().equals("Admin")  || !userProfile.getUserRole().equals("Admin")){
+                    if (!userProfile.getUserRole().equals("Admin")  && !userProfile.getUserRole().equals("Staff")){
                         Toast.makeText(LoginActivity.this, "Sorry, You are not a staff or an admin", Toast.LENGTH_SHORT).show();
                         firebaseAuth.signOut();
                     }else {
