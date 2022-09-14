@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Patterns;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -107,9 +108,13 @@ public class UpdateProfile extends AppCompatActivity {
                 String age =  newUserAge.getText().toString();
                 String email = newUserEmail.getText().toString();
 
-                UserProfile userProfile = new UserProfile(name, age, email, "User", firebaseAuth.getUid());
+                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    UserProfile userProfile = new UserProfile(name, age, email, "User", firebaseAuth.getUid());
+                    databaseReference.setValue(userProfile);
+                }else{
+                    Toast.makeText(UpdateProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
 
-                databaseReference.setValue(userProfile);
+                }
 
                 StorageReference imageReference = storageReference.child(firebaseAuth.getUid()).child("Images").child("Profile Pic");   //User id/Images/Profile Pic
                 UploadTask uploadTask = imageReference.putFile(imagePath);

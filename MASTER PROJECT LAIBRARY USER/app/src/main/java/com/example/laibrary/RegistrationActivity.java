@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -135,10 +136,19 @@ public class RegistrationActivity extends AppCompatActivity {
         age = userAge.getText().toString();
 
 
-        if (name.isEmpty() || password.isEmpty() || email.isEmpty() || age.isEmpty() || imagePath == null){
+
+        if (!name.isEmpty() && !password.isEmpty() && !email.isEmpty() && !age.isEmpty() && imagePath != null){
+            if (password.length()>7 ){
+                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    result = true;
+                }else{
+                    Toast.makeText(this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                }
+            }else  {
+                Toast.makeText(this, "Please make sure password more or equal to 8 characters or digits", Toast.LENGTH_SHORT).show();
+            }
+        }else{
             Toast.makeText(this, "Please enter all the details", Toast.LENGTH_SHORT).show();
-        } else  {
-            result = true;
         }
 
         return result;

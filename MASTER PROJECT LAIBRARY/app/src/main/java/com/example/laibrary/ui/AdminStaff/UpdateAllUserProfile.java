@@ -9,9 +9,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.net.wifi.p2p.WifiP2pConfig;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -119,9 +121,26 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                 String email = newallUserEmail.getText().toString();
                 String role = newallUserRole.getText().toString();
 
-                UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"));
+                if (role.equalsIgnoreCase("Staff")){
+                    role = "Staff";
+                }else if(role.equalsIgnoreCase("admin")){
+                    role = "Admin";
+                }else if(role.equalsIgnoreCase("User")){
+                    role = "User";
+                }else{
+                    role = "User";
+                }
 
-                databaseReference.setValue(userProfile);
+
+                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"));
+                    databaseReference.setValue(userProfile);
+
+                }else{
+                    Toast.makeText(UpdateAllUserProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                }
+
+
 
                 StorageReference imageReference = storageReference.child(getIntent().getStringExtra("keyeuserid")).child("Images").child("Profile Pic");   //User id/Images/Profile Pic
                 UploadTask uploadTask = imageReference.putFile(imagePath2);

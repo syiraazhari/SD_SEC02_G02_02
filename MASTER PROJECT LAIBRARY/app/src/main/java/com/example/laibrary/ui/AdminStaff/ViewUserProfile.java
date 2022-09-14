@@ -22,7 +22,9 @@ import com.example.laibrary.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseUser;
@@ -55,8 +57,9 @@ public class ViewUserProfile extends AppCompatActivity {
         firebaseStorage = FirebaseStorage.getInstance();
         firebaseAuth = FirebaseAuth.getInstance();
 
-        String id = getIntent().getStringExtra("keyuserid");
 
+
+        String currentid = firebaseAuth.getUid();
 
         allprofilePic = findViewById(R.id.ivallProfilePic);
         allprofileAge = findViewById(R.id.tvallProfileAge) ;
@@ -93,45 +96,7 @@ public class ViewUserProfile extends AppCompatActivity {
             }
         });
 
-        /*alldeleteAcc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder dialog = new AlertDialog.Builder(ViewUserProfile.this);
-                dialog.setTitle("Are You Sure?");
-                dialog.setMessage("Deleting this account will result in completely removing your account from the system" +
-                        "and you won't be able to access the app");
-                dialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        try {
-                            FirebaseAuth.getInstance().deleteUser(id);
-                        } catch (FirebaseAuthException e) {
-                            e.printStackTrace();
-                        }
-                        System.out.println("Successfully deleted user.");
 
-                        try {
-                            FirebaseAuth.getInstance().deleteUser(getIntent().getStringExtra("keyusername"));
-                        } catch (FirebaseAuthException e) {
-                            e.printStackTrace();
-                        }
-                        Toast.makeText(ViewUserProfile.this, "Account deleted", Toast.LENGTH_SHORT).show();
-
-                        ViewUserProfile.this.finish();
-                        startActivity(new Intent(ViewUserProfile.this, LoginActivity.class));
-
-                    }
-                });
-                dialog.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
-                    }
-                });
-                AlertDialog alertDialog = dialog.create();
-                alertDialog.show();
-            }
-        });*/
 
     }
 }

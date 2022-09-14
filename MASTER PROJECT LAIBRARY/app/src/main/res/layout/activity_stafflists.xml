@@ -7,6 +7,13 @@
     android:background="@drawable/background3"
     tools:context=".ui.AdminStaff.StafflistsActivity">
 
+    <TextView
+        android:id="@+id/tvStaffList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="User List"
+        android:textSize="30dp"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/StaffList"

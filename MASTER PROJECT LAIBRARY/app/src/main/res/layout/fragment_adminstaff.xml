@@ -33,13 +33,13 @@
 
             <TextView
                 android:id="@+id/AdminName"
-                android:layout_below="@+id/tvTitleAdminDashboard"
-                android:text="admin name"
-                android:layout_marginTop="6dp"
-                android:textSize="14sp"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTitleAdminDashboard"
+                android:layout_marginTop="6dp"
+                android:text="admin name"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="62dp"

@@ -1,6 +1,7 @@
 package com.example.laibrary.ui.AdminStaff;
 
 import android.os.Bundle;
+import android.view.Window;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,8 @@ public class StafflistsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stafflists);
+
+        getSupportActionBar().hide();
 
         recyclerView = findViewById(R.id.StaffList);
 

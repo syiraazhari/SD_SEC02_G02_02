@@ -11,6 +11,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -42,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private TextView forgotPassword;
     private FirebaseDatabase firebaseDatabase;
+    private String email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +55,9 @@ public class LoginActivity extends AppCompatActivity {
         Info = (TextView) findViewById(R.id.tvInfo);
         login = (Button) findViewById(R.id.btnLogin);
         forgotPassword = (TextView) findViewById(R.id.tvForgotPassword);
-
         userRegistration = (TextView)findViewById(R.id.tvRegister);
 
-
+        email = Name.getText().toString();
 
         Info.setText("No of attemps remaining: 5");
 
@@ -73,8 +74,11 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validate(Name.getText().toString(), Password.getText().toString());
-
+                if (!Name.getText().toString().isEmpty() || !Password.getText().toString().isEmpty() ){
+                    validate(Name.getText().toString(), Password.getText().toString());
+                }else {
+                    Toast.makeText(LoginActivity.this, "Please enter all the details", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -104,6 +108,9 @@ public class LoginActivity extends AppCompatActivity {
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+
+
+
                 if(task.isSuccessful()){
                     progressDialog.dismiss();
                     Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
