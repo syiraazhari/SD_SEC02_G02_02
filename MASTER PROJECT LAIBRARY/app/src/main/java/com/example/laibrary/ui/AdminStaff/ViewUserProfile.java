@@ -96,7 +96,8 @@ public class ViewUserProfile extends AppCompatActivity {
             }
         });
 
-
+        //hide delete account button
+        alldeleteAcc.setVisibility(View.GONE);
 
     }
 }

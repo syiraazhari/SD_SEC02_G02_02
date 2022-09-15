@@ -18,6 +18,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.laibrary.R;
+import com.example.laibrary.ui.AdminStaff.UpdateAllUserProfile;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -44,6 +45,7 @@ public class UpdateProfile extends AppCompatActivity {
     Uri imagePath;
     private StorageReference storageReference;
     private FirebaseStorage firebaseStorage;
+    private String currentUserRole;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -85,6 +87,7 @@ public class UpdateProfile extends AppCompatActivity {
                 newUserName.setText(userProfile.getUserName());
                 newUserAge.setText(userProfile.getUserAge());
                 newUserEmail.setText(userProfile.getUserEmail());
+                currentUserRole = userProfile.getUserRole();
             }
 
             @Override
@@ -108,13 +111,19 @@ public class UpdateProfile extends AppCompatActivity {
                 String age =  newUserAge.getText().toString();
                 String email = newUserEmail.getText().toString();
 
-                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    UserProfile userProfile = new UserProfile(name, age, email, "User", firebaseAuth.getUid());
-                    databaseReference.setValue(userProfile);
+                if (!name.isEmpty() && !age.isEmpty() && !email.isEmpty() ){
+                    if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                        UserProfile userProfile = new UserProfile(name, age, email, currentUserRole, firebaseAuth.getUid());
+                        databaseReference.setValue(userProfile);
+                    }else{
+                        Toast.makeText(UpdateProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
-                    Toast.makeText(UpdateProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(UpdateProfile.this, "Please enter all the details", Toast.LENGTH_SHORT).show();
+                    /*finish();*/
                 }
+
+
 
                 StorageReference imageReference = storageReference.child(firebaseAuth.getUid()).child("Images").child("Profile Pic");   //User id/Images/Profile Pic
                 UploadTask uploadTask = imageReference.putFile(imagePath);

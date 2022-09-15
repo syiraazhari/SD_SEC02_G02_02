@@ -50,7 +50,7 @@ public class UpdateAllUserProfile extends AppCompatActivity {
     Uri imagePath2;
     private StorageReference storageReference;
     private FirebaseStorage firebaseStorage;
-    String userid;
+    String userid, currentUserRole;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -97,6 +97,7 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                 newallUserAge.setText(userProfile.getUserAge());
                 newallUserEmail.setText(userProfile.getUserEmail());
                 newallUserRole.setText(userProfile.getUserRole());
+                currentUserRole = userProfile.getUserRole();
             }
 
             @Override
@@ -116,10 +117,12 @@ public class UpdateAllUserProfile extends AppCompatActivity {
         allsave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String name = newallUserName.getText().toString();
                 String age =  newallUserAge.getText().toString();
                 String email = newallUserEmail.getText().toString();
                 String role = newallUserRole.getText().toString();
+
 
                 if (role.equalsIgnoreCase("Staff")){
                     role = "Staff";
@@ -128,19 +131,20 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                 }else if(role.equalsIgnoreCase("User")){
                     role = "User";
                 }else{
-                    role = "User";
+                    role = currentUserRole;
                 }
 
-
-                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"));
-                    databaseReference.setValue(userProfile);
-
+                if (!name.isEmpty() && !age.isEmpty() && !email.isEmpty() && !role.isEmpty() ){
+                    if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                        UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"));
+                        databaseReference.setValue(userProfile);
+                    }else{
+                        Toast.makeText(UpdateAllUserProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
-                    Toast.makeText(UpdateAllUserProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UpdateAllUserProfile.this, "Please enter all the details", Toast.LENGTH_SHORT).show();
+                    finish();
                 }
-
-
 
                 StorageReference imageReference = storageReference.child(getIntent().getStringExtra("keyeuserid")).child("Images").child("Profile Pic");   //User id/Images/Profile Pic
                 UploadTask uploadTask = imageReference.putFile(imagePath2);

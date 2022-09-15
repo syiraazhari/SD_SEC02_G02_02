@@ -55,7 +55,7 @@ public class UpdataPassword extends AppCompatActivity {
                                     finish();
                                 }else {
                                     Toast.makeText(UpdataPassword.this, "Password update failed", Toast.LENGTH_SHORT).show();
-                                    Toast.makeText(UpdataPassword.this, "You can only change password 3 times within 1 hour", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(UpdataPassword.this, "You need to wait for one day to be able to change your password.", Toast.LENGTH_SHORT).show();
 
                                 }
                             }

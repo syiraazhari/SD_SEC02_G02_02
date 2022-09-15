@@ -108,13 +108,19 @@ public class UpdateProfile extends AppCompatActivity {
                 String age =  newUserAge.getText().toString();
                 String email = newUserEmail.getText().toString();
 
-                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    UserProfile userProfile = new UserProfile(name, age, email, "User", firebaseAuth.getUid());
-                    databaseReference.setValue(userProfile);
+                if (!name.isEmpty() && !age.isEmpty() && !email.isEmpty() ){
+                    if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                        UserProfile userProfile = new UserProfile(name, age, email, "User", firebaseAuth.getUid());
+                        databaseReference.setValue(userProfile);
+                    }else{
+                        Toast.makeText(UpdateProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
-                    Toast.makeText(UpdateProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(UpdateProfile.this, "Please enter all the details", Toast.LENGTH_SHORT).show();
+                    /*finish();*/
                 }
+
+
 
                 StorageReference imageReference = storageReference.child(firebaseAuth.getUid()).child("Images").child("Profile Pic");   //User id/Images/Profile Pic
                 UploadTask uploadTask = imageReference.putFile(imagePath);
