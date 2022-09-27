@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\afiq\\.gradle\\caches\\transforms-3\\405e07291690eb4cb1eafd3690334761\\transformed\\jetified-checkout-1.6.19\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endLines": "2,13",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,745"
+                    },
+                    "to": {
+                        "startLines": "2,23",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1389",
+                        "endLines": "2,33",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,2041"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\afiq\\.gradle\\caches\\transforms-3\\5dc4257066e51bca8dee945421699c54\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "93,162,231,301,375,451,510,581",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "157,226,296,370,446,505,576,644"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\afiq\\.gradle\\caches\\transforms-3\\eb9da3ea08c434f2a7c4ac4b019adf2c\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,19,20,21,22,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "649,709,779,850,922,980,1038,1147,1211,1267,1326,2046",
+                        "endLines": "11,12,13,14,15,16,18,19,20,21,22,37",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "704,774,845,917,975,1033,1142,1206,1262,1321,1384,2213"
+                    }
+                }
+            ]
+        }
+    ]
+}

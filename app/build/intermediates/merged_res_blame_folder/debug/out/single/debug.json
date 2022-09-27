@@ -1,0 +1,970 @@
+[
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_list_of_book.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_list_of_book.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_password.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_password.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\font_actor.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\font\\actor.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_updata_password.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_updata_password.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-hdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku4.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_transparent.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable\\logo_transparent.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-mdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-v24\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxxhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registration.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bookingpage.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_bookingpage.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku4.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_book.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\fragment_book.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_feedback.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_history.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_book_history.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_profile.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_item.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_set_date.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_book_set_date.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_about_us_page.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_about_us_page.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component39.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component39.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku5.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku5.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_booking_receipt.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_booking_receipt.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-v24\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku10.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku10.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku4.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-anydpi-v26\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component19.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component19.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_aligncenter.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\aligncenter.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku6.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku6.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component37.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component37.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_background2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\background2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\font_architects_daughter.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\font\\architects_daughter.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku2.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku2.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_aboutus.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\aboutus.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_buku1.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\buku1.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-anydpi-v26\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\menu_option_menu.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\menu\\option_menu.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_splash.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\splash.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_payment.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_book_payment.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku9.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku9.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_buku7.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\buku7.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku8.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku8.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_component35.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxhdpi\\component35.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_booking.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_grey_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-v24\\grey_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_a.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xxxhdpi\\a.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_component38.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\component38.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_background3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\background3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\mipmap-xhdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_buku3.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\buku3.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_favicon.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\favicon.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_background.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_comfirm_booking.xml.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\layout\\activity_comfirm_booking.xml"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-mdpi\\buku4.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-ldpi\\buku4.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_component36.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-xhdpi\\component36.png"
+    },
+    {
+        "merged": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_buku4.png.flat",
+        "source": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\src\\main\\res\\drawable-hdpi\\buku4.png"
+    }
+]

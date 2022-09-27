@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\MASTER PROJECT 2022 SD GRP 2_02\\SD_SEC02_G02_02\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\afiq\\.gradle\\caches\\transforms-3\\06b471e05c94f3a8fe4121be0abbb443\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}
