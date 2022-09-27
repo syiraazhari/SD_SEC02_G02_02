@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laibraryadminstaff">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/favicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/favicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Laibrary">
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.AdminStaff.UpdateAllUserProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.AdminStaff.ViewUserProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.AdminStaff.EditStaff"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.BookingReceipt"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.BookSetDate"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.BookHistory"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.BookPayment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.home.ListOfBookActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.home.FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.home.AboutUsPage"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity android:name="com.example.laibraryadminstaff.RegistrationActivity" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.profile.UpdataPassword"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.PasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.profile.UpdateProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.Booking"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.book.ComfirmBooking"
+            android:exported="true" />
+        <activity
+            android:name="com.example.laibraryadminstaff.ui.AdminStaff.StafflistsActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
