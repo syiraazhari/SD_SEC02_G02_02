@@ -20,6 +20,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.laibraryadminstaff.LoginActivity;
 import com.example.laibraryadminstaff.R;
 import com.example.laibraryadminstaff.ui.profile.UserProfile;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -39,7 +40,7 @@ import java.io.IOException;
 
 public class UpdateAllUserProfile extends AppCompatActivity {
 
-    private EditText newallUserName, newallUserEmail, newallUserAge, newallUserRole;
+    private EditText newallUserName, newallUserEmail, newallUserAge, newallUserRole, newallStudent;
     private Button allsave;
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
@@ -48,7 +49,7 @@ public class UpdateAllUserProfile extends AppCompatActivity {
     Uri imagePath2;
     private StorageReference storageReference;
     private FirebaseStorage firebaseStorage;
-    String userid, currentUserRole;
+    String userid, currentUserRole, currentStudent, loginUserRole;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -75,12 +76,15 @@ public class UpdateAllUserProfile extends AppCompatActivity {
         newallUserRole = (EditText) findViewById(R.id.etRoleUpdate2);
         allsave = (Button) findViewById(R.id.btnSave2);
         updateallProfilePic = (ImageView)findViewById(R.id.ivProileUpdate2);
+        newallStudent = (EditText)findViewById(R.id.etStudentUpdate);
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseStorage = FirebaseStorage.getInstance();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        loginUserRole = getIntent().getStringExtra("keyLoginUserRole");
 
         userid = getIntent().getStringExtra("keyeuserid");
         Log.i(TAG,"user id4 is " + userid);
@@ -96,6 +100,8 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                 newallUserEmail.setText(userProfile.getUserEmail());
                 newallUserRole.setText(userProfile.getUserRole());
                 currentUserRole = userProfile.getUserRole();
+                newallStudent.setText(userProfile.getUserStudent());
+                currentStudent = userProfile.getUserStudent();
             }
 
             @Override
@@ -120,6 +126,7 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                 String age =  newallUserAge.getText().toString();
                 String email = newallUserEmail.getText().toString();
                 String role = newallUserRole.getText().toString();
+                String student  = newallStudent.getText().toString();
 
 
                 if (role.equalsIgnoreCase("Staff")){
@@ -132,10 +139,30 @@ public class UpdateAllUserProfile extends AppCompatActivity {
                     role = currentUserRole;
                 }
 
+                if(LoginActivity.Global.loginuserrole.equals("Staff")&& currentUserRole.equals("Staff")&& role.equals("Admin")){
+                    role = currentUserRole;
+                }
+
+                if (student.equalsIgnoreCase("Student")){
+                    student = "Student";
+                }else if (student.equalsIgnoreCase("notStudent")){
+                    student = "notStudent";
+                }else{
+                    student = currentStudent;
+                }
+
+                Log.i(TAG,"roleStudent is" + LoginActivity.Global.loginuserrole);
+
                 if (!name.isEmpty() && !age.isEmpty() && !email.isEmpty() && !role.isEmpty() ){
                     if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                        UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"));
-                        databaseReference.setValue(userProfile);
+                        if(LoginActivity.Global.loginuserrole.equals("Staff") && currentUserRole.equals("Admin")){
+                            Toast.makeText(UpdateAllUserProfile.this, "You cannot change admin profile", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(UpdateAllUserProfile.this, StaffListAdapter.class));
+                        }else{
+                            UserProfile userProfile = new UserProfile(name, age, email, role, getIntent().getStringExtra("keyeuserid"), student);
+                            databaseReference.setValue(userProfile);
+                        }
+
                     }else{
                         Toast.makeText(UpdateAllUserProfile.this, "Invalid email address", Toast.LENGTH_SHORT).show();
                     }

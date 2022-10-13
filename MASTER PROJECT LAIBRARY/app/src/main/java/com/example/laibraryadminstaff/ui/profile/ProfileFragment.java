@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.style.AlignmentSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -23,6 +24,7 @@ import androidx.fragment.app.Fragment;
 import com.example.laibraryadminstaff.LoginActivity;
 import com.example.laibraryadminstaff.R;
 import com.example.laibraryadminstaff.databinding.FragmentProfileBinding;
+import com.example.laibraryadminstaff.ui.AdminStaff.StaffList;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -42,11 +44,12 @@ public class ProfileFragment extends Fragment {
     private FragmentProfileBinding binding;
     private ImageView profilePic;
     private TextView profileName, profileAge, profileEmail;
-    private Button profileUpdate, changePassword, deleteAcc, logout;
+    private Button profileUpdate, changePassword, deleteAcc, logout, verifiedStudent;
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
     private FirebaseStorage firebaseStorage;
     FirebaseUser firebaseUser;
+    private String userStudentrole, userprofilename;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -64,6 +67,8 @@ public class ProfileFragment extends Fragment {
         changePassword = view.findViewById(R.id.btnChangePassword);
         deleteAcc = view.findViewById(R.id.btnDeleteAcc);
         logout = view.findViewById(R.id.btnProfileLogout);
+        verifiedStudent = view.findViewById(R.id.btnVeriStudent);
+
         //DatabaseReference userID = firebaseDatabase.getReference("User Info").child(firebaseAuth.getUid());
         //String stringuserid = userID.toString();
 
@@ -80,6 +85,7 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onSuccess(Uri uri) {
                 Picasso.get().load(uri).fit().centerCrop().into(profilePic);
+
             }
         });
 
@@ -92,6 +98,9 @@ public class ProfileFragment extends Fragment {
                 profileName.setText("Name: " + userProfile.getUserName());
                 profileAge.setText("Age: " + userProfile.getUserAge());
                 profileEmail.setText("Email: " + userProfile.getUserEmail());
+                userStudentrole = userProfile.getUserStudent();
+
+
             }
 
             @Override
@@ -99,6 +108,11 @@ public class ProfileFragment extends Fragment {
                 Toast.makeText(getActivity(), error.getCode(), Toast.LENGTH_SHORT).show();
             }
         });
+
+
+
+        Log.i(TAG,"userstudetn2 is" +userStudentrole);
+
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,6 +181,13 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), UpdataPassword.class));
+            }
+        });
+
+        verifiedStudent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), VeriStudentActivity.class));
             }
         });
 
