@@ -19,4 +19,13 @@
         <item>63 Tumbuhan Ubatan</item>
 
     </string-array>
+
+    <string-array name="StudyRoom_array">
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+        <item>Room 5</item>
+        <item>Room 6</item>
+    </string-array>
 </resources>
