@@ -33,28 +33,10 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivProileUpdate2"
-        app:layout_constraintVertical_bias="0.136" />
-
-    <EditText
-        android:id="@+id/etEmailUpdate2"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/component39"
-        android:ems="10"
-        android:fontFamily="@font/architects_daughter"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNameUpdate2"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.044" />
 
     <EditText
         android:id="@+id/etAgeUpdate2"
@@ -70,10 +52,66 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmailUpdate2"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.063" />
+
+    <EditText
+        android:id="@+id/etRoleUpdate2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/component19"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:ems="10"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Role"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate2"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <EditText
+        android:id="@+id/etStudentUpdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/component19"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:ems="10"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Student"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate2"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <EditText
+        android:id="@+id/etEmailUpdate2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/component39"
+        android:ems="10"
+        android:fontFamily="@font/architects_daughter"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNameUpdate2"
+        app:layout_constraintVertical_bias="0.049" />
 
     <Button
         android:id="@+id/btnSave2"
@@ -86,8 +124,10 @@
         app:icon="@android:drawable/ic_menu_save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate2" />
+        app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate2"
+        app:layout_constraintVertical_bias="0.718" />
 
     <TextView
         android:id="@+id/textView15"
@@ -103,23 +143,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.057" />
-
-    <EditText
-        android:id="@+id/etRoleUpdate2"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btnSave2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etAgeUpdate2"
-        android:background="@drawable/component19"
-        android:drawableLeft="@android:drawable/ic_menu_view"
-        android:fontFamily="@font/architects_daughter"
-        android:hint="Role"
-        android:minHeight="48dp"
-        android:textAlignment="center"
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

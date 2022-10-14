@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AdminStaff.ViewUserProfile"
-    android:background="@drawable/background3">
+    android:background="@drawable/background3"
+    tools:context=".ui.AdminStaff.ViewUserProfile">
 
     <Button
         android:id="@+id/btnDeleteallAcc"
@@ -20,10 +20,10 @@
         app:icon="@android:drawable/ic_delete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnallProfileUpdate"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@+id/btnallProfileUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/tvallProfileStudent"
+        app:layout_constraintVertical_bias="0.314" />
 
     <Button
         android:id="@+id/btnallProfileUpdate"
@@ -39,10 +39,10 @@
         app:iconSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvallProfileEmail"
-        app:layout_constraintVertical_bias="0.338" />
+        app:layout_constraintTop_toBottomOf="@+id/tvallProfileStudent"
+        app:layout_constraintVertical_bias="0.314" />
 
     <ImageView
         android:id="@+id/ivallProfilePic"
@@ -113,19 +113,32 @@
         app:layout_constraintVertical_bias="0.057" />
 
     <TextView
+        android:id="@+id/tvallProfileStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Student?: "
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvallProfileRole"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
         android:id="@+id/tvallProfileRole"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Role: "
-        app:layout_constraintBottom_toTopOf="@+id/btnallProfileUpdate"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvallProfileEmail"
-        app:layout_constraintVertical_bias="0.346"
         android:fontFamily="@font/architects_daughter"
+        android:text="Role: "
         android:textSize="20sp"
 
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvallProfileEmail"
+        app:layout_constraintVertical_bias="0.09" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

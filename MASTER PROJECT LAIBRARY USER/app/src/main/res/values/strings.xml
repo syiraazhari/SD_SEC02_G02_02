@@ -1,11 +1,15 @@
 <resources>
-    <string name="app_name">Laibrary</string>
+    <string name="app_name">Laibrary StaffAdmin</string>
     <string name="title_home">Home</string>
     <string name="title_book">Book</string>
     <string name="title_studyroom">Study Room</string>
     <string name="title_profile">Profile</string>
+    <string name="title_AdminStaff">Admin Staff</string>
+    <string name="others">others</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About Us</string>
+    <string name="feedback">Feedback</string>
     <string-array name="Buku_array">
         <item>Rainforest Creatures of Malaysia</item>
         <item>Pergi Covid-19! Jangan Datang Lagi!</item>
