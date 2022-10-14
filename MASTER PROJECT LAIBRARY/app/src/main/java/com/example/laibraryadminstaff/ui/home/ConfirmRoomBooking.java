@@ -46,7 +46,7 @@ public class ConfirmRoomBooking extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseAuth = FirebaseAuth.getInstance();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         Roomfullname = getIntent().getStringExtra("Roomfullnamekey");
         Roomicnum = getIntent().getStringExtra("Roomicnumberkey");

@@ -12,9 +12,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.laibrary.R;
-import com.example.laibrary.R;
+
 import com.example.laibrary.ui.home.RoomBookingDetail;
+import com.example.laibraryadminstaff.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -46,7 +46,6 @@ public class ConfirmRoomBooking extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseAuth = FirebaseAuth.getInstance();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Roomfullname = getIntent().getStringExtra("Roomfullnamekey");
         Roomicnum = getIntent().getStringExtra("Roomicnumberkey");

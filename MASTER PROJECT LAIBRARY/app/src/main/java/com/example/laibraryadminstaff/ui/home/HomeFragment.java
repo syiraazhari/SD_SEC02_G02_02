@@ -18,7 +18,7 @@ public class HomeFragment extends Fragment {
 
 
     private FragmentHomeBinding binding;
-    Button feedback, listofbook, aboutus;
+    Button feedback, listofbook, aboutus, room;
     private FirebaseAuth firebaseAuth;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -35,6 +35,7 @@ public class HomeFragment extends Fragment {
         feedback = view.findViewById(R.id.btnFeedback);
         listofbook = view.findViewById(R.id.btnListOfBook);
         aboutus = view.findViewById(R.id.btnAboutUs);
+        room = view.findViewById(R.id.btnBookingroom);
 
         feedback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +55,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), ListOfBookActivity.class));
+            }
+        });
+
+        room.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), bookingActivity.class));
             }
         });
 

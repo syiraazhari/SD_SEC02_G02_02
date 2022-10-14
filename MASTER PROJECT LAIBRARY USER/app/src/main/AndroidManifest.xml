@@ -46,6 +46,12 @@
             android:name=".ui.home.AboutUsPage"
             android:exported="true" />
         <activity
+            android:name=".ui.home.bookingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.home.ConfirmRoomBooking"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity

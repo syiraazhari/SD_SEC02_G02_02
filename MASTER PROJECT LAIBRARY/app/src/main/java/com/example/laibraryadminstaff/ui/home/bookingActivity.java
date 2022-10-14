@@ -61,7 +61,7 @@ public class bookingActivity extends AppCompatActivity{
         room = getResources().getStringArray(R.array.StudyRoom_array);
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         ArrayAdapter <String>adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,room);
         Roomspinner.setAdapter(adapter);
