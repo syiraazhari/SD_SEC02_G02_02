@@ -4,30 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#08172E"
     android:orientation="vertical"
-    android:background="@drawable/background3"
     tools:context=".ui.AdminStaff.AdminStaffFramgnet">
 
     <LinearLayout
-        android:orientation="vertical"
-
         android:layout_width="match_parent"
+
         android:layout_height="160dp"
-        >
+        android:orientation="vertical">
 
 
         <RelativeLayout
-            android:layout_marginTop="32dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
 
             <TextView
                 android:id="@+id/tvTitleAdminDashboard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
                 android:text="Admin Dashboard"
+                android:textColor=" #D9B59D"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -37,7 +38,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvTitleAdminDashboard"
                 android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-medium"
                 android:text="admin name"
+                android:textColor=" #D9B59D"
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
@@ -51,29 +54,29 @@
     </LinearLayout>
 
     <GridLayout
-        android:columnCount="2"
-        android:layout_marginTop="-40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:columnCount="2">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvAdminChangeBookRanking"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
             android:layout_rowWeight="1"
-            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
             android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="90dp"
@@ -81,10 +84,10 @@
                     android:src="@mipmap/ic_launcher_round" />
 
                 <TextView
-                    android:text="Change Book Ranking"
-                    android:layout_margin="10dp"
                     android:layout_width="85dp"
-                    android:layout_height="50dp"/>
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:text="Change Book Ranking" />
 
             </LinearLayout>
 
@@ -92,20 +95,19 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/AdminAddNewBook"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
             android:layout_rowWeight="1"
-            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
             android:layout_margin="12dp"
-            app:cardElevation="2dp"
-            >
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="90dp"
@@ -113,10 +115,10 @@
                     android:src="@mipmap/ic_launcher_round" />
 
                 <TextView
-                    android:text="Add New Book"
-                    android:layout_margin="10dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"/>
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:text="Add New Book" />
 
             </LinearLayout>
 
@@ -124,20 +126,19 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvAdminChangeBookInfo"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
             android:layout_rowWeight="1"
-            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
             android:layout_margin="12dp"
-            app:cardElevation="2dp"
-            >
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="90dp"
@@ -145,10 +146,10 @@
                     android:src="@mipmap/ic_launcher_round" />
 
                 <TextView
-                    android:text="Edit Book Information"
-                    android:layout_margin="10dp"
                     android:layout_width="85dp"
-                    android:layout_height="50dp"/>
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:text="Edit Book Information" />
 
             </LinearLayout>
 
@@ -156,19 +157,19 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvAdminEditStaff"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
             android:layout_rowWeight="1"
-            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
             android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="90dp"
@@ -176,10 +177,10 @@
                     android:src="@mipmap/ic_launcher_round" />
 
                 <TextView
-                    android:text="Edit Staff"
-                    android:layout_margin="10dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"/>
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:text="Edit Staff" />
 
             </LinearLayout>
 

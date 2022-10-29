@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background3"
+    android:background="#08172E"
     tools:context=".SplashScreen">
 
     <ImageView
@@ -17,6 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.367"
-        app:srcCompat="@drawable/logo_transparent" />
+        app:srcCompat="@drawable/logo_transparents" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
