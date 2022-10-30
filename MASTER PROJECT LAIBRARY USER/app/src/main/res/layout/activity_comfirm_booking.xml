@@ -123,10 +123,25 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/tvQuantity"
-        app:layout_constraintVertical_bias="0.354" />
+        app:layout_constraintVertical_bias="0.322" />
+
+    <TextView
+        android:id="@+id/tvTotalAfter"
+        android:layout_width="103dp"
+        android:layout_height="36dp"
+        android:background="@drawable/component19"
+        android:gravity="center"
+        android:hint="TotalAfter"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuantity"
+        app:layout_constraintVertical_bias="0.498" />
 
     <Button
         android:id="@+id/btnComfirm"
@@ -140,10 +155,10 @@
         app:icon="@android:drawable/ic_menu_upload"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTotal"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <TextView
         android:id="@+id/textView7"
@@ -172,10 +187,10 @@
         app:icon="@android:drawable/ic_menu_revert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnComfirm"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTotal"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <TextView
         android:id="@+id/textView9"
@@ -238,16 +253,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/architects_daughter"
+        android:text="Total After Discount(RM):"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
         android:text="Total(RM):"
         android:textColor="#000000"
         android:textColorHighlight="#000000"
         android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.339" />
 
     <TextView
         android:id="@+id/textView15"

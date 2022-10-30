@@ -27,7 +27,7 @@ import java.util.ArrayList;
 public class ViewUserProfile extends AppCompatActivity {
 
     private ImageView allprofilePic;
-    private TextView allprofileName, allprofileAge, allprofileEmail, allprofilerole;
+    private TextView allprofileName, allprofileAge, allprofileEmail, allprofilerole, allprofileStudent;
     private Button allprofileUpdate, alldeleteAcc;
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
@@ -54,11 +54,14 @@ public class ViewUserProfile extends AppCompatActivity {
         allprofileUpdate = findViewById(R.id.btnallProfileUpdate);
         alldeleteAcc = findViewById(R.id.btnDeleteallAcc);
         allprofilerole = findViewById(R.id.tvallProfileRole);
+        allprofileStudent = findViewById(R.id.tvallProfileStudent);
 
         allprofileName.setText("Name: " + getIntent().getStringExtra("keyusername"));
         allprofileAge.setText("Age: " + getIntent().getStringExtra("keyuserage"));
         allprofileEmail.setText("Email: " + getIntent().getStringExtra("keyuseremail"));
         allprofilerole.setText("Role: " + getIntent().getStringExtra("keyuserrole"));
+        allprofileStudent.setText("Role: " + getIntent().getStringExtra("keyuserStudent"));
+
 
 /*
         DatabaseReference databaseReference = firebaseDatabase.getReference("User Info").child(getIntent().getStringExtra("keyuserid"));

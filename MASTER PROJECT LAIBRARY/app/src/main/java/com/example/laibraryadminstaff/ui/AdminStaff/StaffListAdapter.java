@@ -72,6 +72,7 @@ public class StaffListAdapter extends RecyclerView.Adapter<StaffListAdapter.Staf
                         i.putExtra("keyuseremail", staffList.getUserEmail());
                         i.putExtra("keyuserrole", staffList.getUserRole());
                         i.putExtra("keyuserage", staffList.getUserAge());
+                        i.putExtra("keyuserStudent", staffList.getUserStudent());
                         context.startActivity(i);
 
                         /*((Activity)context).finish();

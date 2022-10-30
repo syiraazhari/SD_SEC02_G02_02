@@ -7,22 +7,35 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.laibraryadminstaff.ui.book.BookFragment;
 import com.example.laibraryadminstaff.ui.book.DateDatabase;
+import com.example.laibraryadminstaff.ui.home.AboutUsPage;
+import com.example.laibraryadminstaff.ui.home.FeedbackActivity;
+import com.example.laibraryadminstaff.ui.home.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
+import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.laibraryadminstaff.databinding.ActivityMainBinding;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -55,11 +68,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        /*binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());*/
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-
-        BottomNavigationView navView = findViewById(R.id.nav_view);
+        /*BottomNavigationView navView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
@@ -67,7 +80,66 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(binding.navView, navController);
+        NavigationUI.setupWithNavController(binding.navView, navController);*/
+
+        final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+
+        findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
+
+        NavigationView navigationView = findViewById(R.id.navigationView);
+        navigationView.setItemIconTintList(null);
+
+        NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
+        NavigationUI.setupWithNavController(navigationView, navController);
+
+        final TextView textTitle = findViewById(R.id.textTile);
+
+        navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
+            @Override
+            public void onDestinationChanged(@NonNull NavController navController, @NonNull NavDestination navDestination, @Nullable Bundle bundle) {
+                textTitle.setText(navDestination.getLabel());
+                switch (navDestination.getId()){
+                    case R.id.menuAboutUs:
+                        startActivity(new Intent (MainActivity.this, AboutUsPage.class));
+                        break;
+                    case R.id.menuFeedback:
+                        startActivity(new Intent (MainActivity.this, FeedbackActivity.class));
+                        break;
+                }
+            }
+        });
+
+
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.navHostFragment);
+        NavController navController1 = navHostFragment.getNavController();
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.nav_view);
+        NavigationUI.setupWithNavController(bottomNavigationView, navController1);
+
+        /*navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.menuAboutUs:
+                        startActivity(new Intent (MainActivity.this, AboutUsPage.class));
+                        break;
+                    case R.id.menuFeedback:
+                        startActivity(new Intent (MainActivity.this, FeedbackActivity.class));
+                        break;
+                }
+                drawerLayout.closeDrawer(GravityCompat.START);
+                return true;
+
+
+            }
+        });*/
+
+
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();

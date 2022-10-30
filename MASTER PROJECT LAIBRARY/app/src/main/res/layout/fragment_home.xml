@@ -8,6 +8,24 @@
     tools:context=".ui.home.HomeFragment">
 
     <Button
+        android:id="@+id/btnBookingroom"
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:background="@drawable/component35"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Booking Room"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:backgroundTint="#000000"
+        app:icon="@android:drawable/ic_menu_gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListOfBook"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
         android:id="@+id/btnFeedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,10 +37,10 @@
         app:icon="@android:drawable/ic_menu_edit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toEndOf="@+id/btnAboutUs"
         app:layout_constraintTop_toBottomOf="@+id/btnListOfBook"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <Button
         android:id="@+id/btnListOfBook"
@@ -55,10 +73,10 @@
         app:icon="@android:drawable/ic_dialog_info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnListOfBook"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <TextView
         android:id="@+id/textView15"

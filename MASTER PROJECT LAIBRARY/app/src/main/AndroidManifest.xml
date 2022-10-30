@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Laibrary">
         <activity
-            android:name="com.example.laibraryadminstaff.ui.AdminStaff.UpdateAllUserProfile"
+            android:name=".ui.profile.VeriStudentActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.AdminStaff.ViewUserProfile"
+            android:name=".ui.AdminStaff.UpdateAllUserProfile"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.AdminStaff.EditStaff"
+            android:name=".ui.AdminStaff.ViewUserProfile"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.BookingReceipt"
+            android:name=".ui.book.BookingReceipt"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.SplashScreen"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,48 +34,56 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.BookSetDate"
+            android:name=".ui.book.BookSetDate"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.BookHistory"
+            android:name=".ui.book.BookHistory"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.BookPayment"
+            android:name=".ui.book.BookPayment"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.home.ListOfBookActivity"
+            android:name=".ui.home.ListOfBookActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.home.FeedbackActivity"
+            android:name=".ui.home.FeedbackActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.home.AboutUsPage"
+            android:name=".ui.home.AboutUsPage"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.LoginActivity"
+            android:name=".ui.home.bookingActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.MainActivity"
+            android:name=".ui.home.ConfirmRoomBooking"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name" />
-        <activity android:name="com.example.laibraryadminstaff.RegistrationActivity" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.profile.UpdataPassword"
+            android:name=".RegistrationActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.PasswordActivity"
+            android:name=".ui.profile.UpdataPassword"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.profile.UpdateProfile"
+            android:name=".PasswordActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.Booking"
+            android:name=".ui.profile.UpdateProfile"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.book.ComfirmBooking"
+            android:name=".ui.book.Booking"
             android:exported="true" />
         <activity
-            android:name="com.example.laibraryadminstaff.ui.AdminStaff.StafflistsActivity"
+            android:name=".ui.book.ComfirmBooking"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AdminStaff.StafflistsActivity"
             android:exported="true" />
 
         <meta-data

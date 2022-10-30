@@ -7,17 +7,19 @@ public class StaffList {
     public String userEmail;
     public String userRole;
     public String userId;
+    public String userStudent;
 
     public StaffList(){
 
     }
 
-    public StaffList(String userName, String userAge, String userEmail, String userRole, String userId) {
+    public StaffList(String userName, String userAge, String userEmail, String userRole, String userId, String userStudent) {
         this.userName = userName;
         this.userAge = userAge;
         this.userEmail = userEmail;
         this.userRole = userRole;
         this.userId = userId;
+        this.userStudent = userStudent;
     }
 
     public String getUserName() {
@@ -58,5 +60,13 @@ public class StaffList {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getUserStudent() {
+        return userStudent;
+    }
+
+    public void setUserStudent(String userStudent) {
+        this.userStudent = userStudent;
     }
 }

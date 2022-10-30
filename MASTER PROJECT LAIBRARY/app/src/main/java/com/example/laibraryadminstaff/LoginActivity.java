@@ -39,7 +39,8 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private TextView forgotPassword;
     private FirebaseDatabase firebaseDatabase;
-    private String email;
+    private String email, loginUserRole;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         userRegistration = (TextView)findViewById(R.id.tvRegister);
 
         email = Name.getText().toString();
+
 
         Info.setText("No of attemps remaining: 5");
 
@@ -155,13 +157,15 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     UserProfile userProfile = snapshot.getValue(UserProfile.class);
+                    loginUserRole = userProfile.getUserStudent();
                     Log.i(TAG,"user role is " + userProfile.getUserRole());
                     if (!userProfile.getUserRole().equals("Admin")  && !userProfile.getUserRole().equals("Staff")){
                         Toast.makeText(LoginActivity.this, "Sorry, You are not a staff or an admin", Toast.LENGTH_SHORT).show();
                         firebaseAuth.signOut();
                     }else {
-                        Log.i(TAG,"user role1 is user " + userProfile.getUserRole());
+                        Global.loginuserrole = loginUserRole;
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
+
                     }
 
 
@@ -179,6 +183,8 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-
+    public static class Global {
+        public static String loginuserrole = "";
+    }
 
 }

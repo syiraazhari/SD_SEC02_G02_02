@@ -28,7 +28,7 @@ public class StafflistsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stafflists);
 
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         recyclerView = findViewById(R.id.StaffList);
 
