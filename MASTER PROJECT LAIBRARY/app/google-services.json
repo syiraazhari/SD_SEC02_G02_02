@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "837019730351",
+    "firebase_url": "https://testing3-c8a9d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "testing3-c8a9d",
+    "storage_bucket": "testing3-c8a9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837019730351:android:a2180f453f14c8363f2f5a",
+        "android_client_info": {
+          "package_name": "com.example.laibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDZnlu8-AzSFBLH7s1ui-osL_as3futs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837019730351:android:92a1948f311d29443f2f5a",
+        "android_client_info": {
+          "package_name": "com.example.laibraryadminstaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDZnlu8-AzSFBLH7s1ui-osL_as3futs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837019730351:android:832ffb54e439fadd3f2f5a",
+        "android_client_info": {
+          "package_name": "com.koolearn.klibrary.ui.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDZnlu8-AzSFBLH7s1ui-osL_as3futs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
