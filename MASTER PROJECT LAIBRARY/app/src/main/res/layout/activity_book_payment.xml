@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#08172E"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.book.BookPayment">
+    android:gravity="center"
+    tools:context="com.ui.book.BookPayment"
+    >
 
     <ImageView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/component35"
         android:text="Pay"
-        app:backgroundTint="#8ac5d4" />
+        app:backgroundTint="#000000" />
 
 
 </LinearLayout>

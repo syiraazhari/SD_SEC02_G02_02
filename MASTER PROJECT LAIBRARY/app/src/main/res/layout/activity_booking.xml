@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:background="#08172E"
-    tools:context=".ui.book.Booking"
+    android:background="@drawable/background3"
+    tools:context="com.ui.book.Booking"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="47dp">
 
@@ -16,10 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/component35"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="Book"
-        android:textColor="#FFFFFF"
-        app:backgroundTint="#8ac5d4"
+        android:textColor="#2196F3"
+        app:backgroundTint="#000000"
         app:icon="@android:drawable/ic_menu_upload"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,9 +31,9 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="BOOKING FORM"
-        android:textColor=" #D9B59D"
+        android:textColor="#000000"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,7 +49,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/component35"
         android:text="choose date"
-        app:backgroundTint="#8ac5d4"
+        app:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.177"
@@ -63,17 +62,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Book: "
-        android:textColor=" #D9B59D"
         app:layout_constraintBottom_toTopOf="@+id/etQuantity"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toBottomOf="@+id/etPnumber"
-
-        app:layout_constraintVertical_bias="0.261" />
-
-
+        app:layout_constraintVertical_bias="0.595" />
 
     <EditText
         android:id="@+id/etPnumber"
@@ -92,6 +87,20 @@
         app:layout_constraintTop_toBottomOf="@+id/etIc"
         app:layout_constraintVertical_bias="0.078" />
 
+    <TextView
+        android:id="@+id/tvRentDate"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="date"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toEndOf="@+id/btnSetDate"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.459" />
 
     <EditText
         android:id="@+id/etIc"
@@ -128,31 +137,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.219" />
 
-
-    <TextView
-        android:id="@+id/tvRentDate"
-        android:layout_width="122dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="40dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="date"
-        android:textColor=" #D9B59D"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/etFullName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.73"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911" />
-
-    <Spinner
+    <EditText
         android:id="@+id/namaBuku"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint=" #D9B59D"
+        android:backgroundTint="#D9B59D"
         android:drawSelectorOnTop="true"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.579"
@@ -172,10 +162,10 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/namaBuku"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectBook"
+        app:layout_constraintVertical_bias="0.041" />
 
     <EditText
         android:id="@+id/etOffer"
@@ -191,7 +181,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/namaBuku"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectBook"
         app:layout_constraintVertical_bias="0.343" />
+
+    <Button
+        android:id="@+id/btnSelectBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

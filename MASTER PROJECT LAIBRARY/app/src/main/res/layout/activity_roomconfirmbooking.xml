@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#08172E"
-    tools:context=".ui.home.ConfirmRoomBooking">
+    tools:context="com.ui.home.ConfirmRoomBooking">
+
 
     <Button
         android:id="@+id/btnroomChange"

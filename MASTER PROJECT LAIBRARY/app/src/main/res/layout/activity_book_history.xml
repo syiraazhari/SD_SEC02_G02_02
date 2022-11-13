@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#08172E"
     android:paddingLeft="20dp"
     android:paddingTop="40dp"
     android:paddingRight="16dp"
     android:paddingBottom="45dp"
-    tools:context=".ui.book.BookHistory">
+    tools:context="com.ui.book.BookHistory"
+    android:background="@drawable/background3">
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/BookingList"
@@ -25,7 +26,7 @@
         android:id="@+id/btnrefresh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint=" #D9B59D"
+        android:backgroundTint="#D9B59D"
         android:text="refresh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

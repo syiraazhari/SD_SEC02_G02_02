@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#08172E"
-    tools:context=".LoginActivity">
+    android:background="@drawable/background3"
+    tools:context="com.LoginActivity">
 
     <EditText
         android:id="@+id/etName"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/component39"
         android:ems="10"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:hint="Email"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -31,7 +31,7 @@
         android:background="@drawable/component19"
         android:drawableLeft="@android:drawable/ic_lock_idle_lock"
         android:ems="10"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:hint="Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
@@ -47,10 +47,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/component35"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="Login"
-        android:textColor="#FFFFFF"
-        app:backgroundTint="#8ac5d4"
+        android:textColor="#2196F3"
+        app:backgroundTint="#000000"
         app:icon="@android:drawable/ic_media_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,9 +63,8 @@
         android:id="@+id/tvInfo"
         android:layout_width="271dp"
         android:layout_height="43dp"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="No of sttempts remaining: "
-        android:textColor=" #D9B59D"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,9 +76,9 @@
         android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="New User? Sign Up!"
-        android:textColor=" #D9B59D"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,9 +90,9 @@
         android:id="@+id/tvForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="Forgot Password?"
-        android:textColor=" #D9B59D"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.838"
@@ -105,17 +104,16 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/architects_daughter"
         android:text="LOGIN"
-        android:textColor=" #D9B59D"
+        android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -125,7 +123,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.014"
-        app:srcCompat="@drawable/logo_transparents" />
+        app:layout_constraintVertical_bias="0.036"
+        app:srcCompat="@drawable/logo_transparent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

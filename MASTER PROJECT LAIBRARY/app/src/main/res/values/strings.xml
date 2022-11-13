@@ -1,5 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Laibrary StaffAdmin</string>
+    <string name="empty_string"></string>
+
+    <string name="local_book">本地图书</string>
+    <string name="network_book">在线图书</string>
+    <string name="book_note">我的笔记</string>
+    <string name="book_mark">我的书签</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="book_title_1">失控</string>
+    <string name="book_description_1">作者: [美] 凯文·凯利 \n出版年: 2010-12 \n页数: 707 \n定价: 88.00元 </string>
+
+    <string name="search">搜索</string>
+    <string name="input_hint">请输入关键字</string>
+    <string name="input_prefill"></string>
+    <string name="default_search_keyword">哈利</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
     <string name="title_home">Home</string>
     <string name="title_book">Book</string>
     <string name="title_studyroom">Study Room</string>
@@ -7,7 +28,7 @@
     <string name="title_AdminStaff">Admin Staff</string>
     <string name="others">others</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="about_us">About Us</string>
     <string name="feedback">Feedback</string>
     <string-array name="Buku_array">

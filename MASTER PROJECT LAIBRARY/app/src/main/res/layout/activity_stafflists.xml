@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#08172E"
-    tools:context=".ui.AdminStaff.StafflistsActivity">
+    android:background="@drawable/background3"
+    tools:context="com.ui.AdminStaff.StafflistsActivity">
+
 
     <TextView
         android:id="@+id/tvStaffList"
@@ -18,11 +19,9 @@
         android:id="@+id/StaffList"
         android:layout_width="409dp"
         android:layout_height="867dp"
-        android:backgroundTint=" #D9B59D"
+        android:backgroundTint="#D9B59D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

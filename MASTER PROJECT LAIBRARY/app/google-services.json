@@ -63,6 +63,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837019730351:android:832ffb54e439fadd3f2f5a",
+        "android_client_info": {
+          "package_name": "com.koolearn.klibrary.ui.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiDZnlu8-AzSFBLH7s1ui-osL_as3futs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837019730351-sn7stljsodri5tanl5o5rfqdmg7qmmm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
