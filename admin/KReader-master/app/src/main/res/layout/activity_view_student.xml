@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ui.AdminStaff.ViewStudent"
+    android:background="@drawable/background3">
+
+
+
+    <TextView
+        android:id="@+id/title_student"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/architects_daughter"
+
+        android:layout_height="wrap_content"
+        android:text="Student Verification"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_student"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_student"
+            android:paddingRight="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>

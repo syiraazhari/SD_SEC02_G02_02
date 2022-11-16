@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.koolearn.klibrary.ui.android"
+    android:requestLegacyExternalStorage="true">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:name="com.koolearn.android.kooreader.KooReaderApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/logolibrary"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo_round"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ui.home.TermsAndConditions"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.home.PrivacyPolicy"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ViewBooking"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ChangeBook"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ViewBook"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.AdminAddBook"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.book.SelectBook"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.CheckVerification"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.CheckStudent"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ViewStudent"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ViewFeedback"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- com.ui.AdminStaff -->
+        <activity
+            android:name="com.ui.AdminStaff.ViewVoucher"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ChangeBooking"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.AddVoucher"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.ui.AdminStaff.ChangeVoucher"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.koolearn.android.kooreader.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.koolearn.android.kooreader.KooReader"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.kooreader.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.kooreader.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="kooreader-action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.kooreader.action.PLUGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host=""
+                    android:scheme="file" />
+                <data android:pathPattern=".*\\.epub" />
+                <!-- <data android:pathPattern=".*\\.doc" /> -->
+                <!-- <data android:pathPattern=".*\\.oeb" /> -->
+                <!-- <data android:pathPattern=".*\\.fb2" /> -->
+                <!-- <data android:pathPattern=".*\\.fb2\\.zip" /> -->
+                <!-- <data android:pathPattern=".*\\.mobi" /> -->
+                <!-- <data android:pathPattern=".*\\.prc" /> -->
+                <!-- <data android:pathPattern=".*\\.txt" /> -->
+                <!-- <data android:pathPattern=".*\\.rtf" /> -->
+                <!-- <data android:pathPattern=".*\\.pdf" /> -->
+                <!-- <data android:pathPattern=".*\\.djvu" /> -->
+                <!-- <data android:pathPattern=".*\\.cbr" /> -->
+                <!-- <data android:pathPattern=".*\\.cbz" /> -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host=""
+                    android:mimeType="text/plain"
+                    android:scheme="file" />
+                <data android:pathPattern=".*\\.epub" />
+                <!-- <data android:pathPattern=".*\\.doc" /> -->
+                <!-- <data android:pathPattern=".*\\.oeb" /> -->
+                <!-- <data android:pathPattern=".*\\.fb2" /> -->
+                <!-- <data android:pathPattern=".*\\.mobi" /> -->
+                <!-- <data android:pathPattern=".*\\.prc" /> -->
+                <!-- <data android:pathPattern=".*\\.txt" /> -->
+                <!-- <data android:pathPattern=".*\\.rtf" /> -->
+                <!-- <data android:pathPattern=".*\\.pdf" /> -->
+                <!-- <data android:pathPattern=".*\\.djvu" /> -->
+                <!-- <data android:pathPattern=".*\\.cbr" /> -->
+                <!-- <data android:pathPattern=".*\\.cbz" /> -->
+            </intent-filter>
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content" android:pathPattern=".*\\.fb2"/>
+            </intent-filter
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host=""
+                    android:scheme="file" />
+                <data android:mimeType="application/epub+zip" />
+                <!-- <data android:mimeType="application/msword" /> -->
+                <!-- <data android:mimeType="application/x-pilot-prc" /> -->
+                <!-- <data android:mimeType="application/x-mobipocket-ebook" /> -->
+                <!-- <data android:mimeType="application/x-fictionbook+xml" /> -->
+                <!-- <data android:mimeType="application/x-fictionbook" /> -->
+                <!-- <data android:mimeType="application/pdf" /> -->
+                <!-- <data android:mimeType="application/x-pdf" /> -->
+                <!-- <data android:mimeType="application/djvu" /> -->
+                <!-- <data android:mimeType="application/x-djvu" /> -->
+                <!-- <data android:mimeType="application/x-cbr" /> -->
+                <!-- <data android:mimeType="application/x-cbz" /> -->
+                <!-- <data android:mimeType="image/vnd.djvu" /> -->
+                <!-- <data android:mimeType="image/x-djvu" /> -->
+                <!-- <data android:mimeType="text/plain" /> -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.kooreader.action.CLOSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.kooreader.action.PLUGIN_CRASH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.koolearn.android.kooreader.book.BookDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.koolearn.android.kooreader.TOCActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true" />
+        <activity
+            android:name="com.koolearn.android.kooreader.preferences.PreferenceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:process=":preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="kooreader-preferences" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.kooreader.action.PREFERENCES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".error.BugReportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="KooReader crash"
+            android:process=":crash" />
+        <activity
+            android:name="com.koolearn.android.kooreader.library.LibraryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:process=":library">
+            <intent-filter>
+                <action android:name="android.kooreader.action.LIBRARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.koolearn.android.kooreader.bookmark.EditBookmarkActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/KooReader.Dialog">
+            <intent-filter>
+                <action android:name="android.fbreader.action.EDIT_BOOKMARK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.koolearn.android.kooreader.bookmark.EditStyleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/KooReader.Dialog">
+            <intent-filter>
+                <action android:name="android.fbreader.action.EDIT_STYLES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ui.profile.VeriStudentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.AdminStaff.UpdateAllUserProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.AdminStaff.ViewUserProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.book.BookingReceipt"
+            android:exported="true" />
+        <activity
+            android:name="com.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ui.book.BookSetDate"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.book.BookHistory"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.book.BookPayment"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.home.ListOfBookActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.home.FeedbackActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.home.AboutUsPage"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.home.bookingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.home.ConfirmRoomBooking"
+            android:exported="true" />
+        <activity
+            android:name="com.LoginActivity"
+            android:exported="true" />
+        <!--
+<activity
+            android:name="com.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        -->
+        <activity
+            android:name="com.RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.profile.UpdataPassword"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.AdminStaff.ViewBookingBook"
+            android:exported="true" />
+        <activity
+            android:name="com.PasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.profile.UpdateProfile"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.book.Booking"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.book.ComfirmBooking"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.AdminStaff.StafflistsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ui.AdminStaff.ViewBookingroom"
+            android:exported="true" />
+
+        <service
+            android:name="com.koolearn.android.kooreader.libraryService.LibraryService"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:process=":libraryService">
+            <intent-filter>
+                <action android:name="android.kooreader.action.LIBRARY_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.koolearn.android.kooreader.config.ConfigService"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:process=":configService">
+            <intent-filter>
+                <action android:name="android.kooreader.action.CONFIG_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
