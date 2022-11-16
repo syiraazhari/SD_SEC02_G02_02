@@ -38,12 +38,12 @@ import java.io.IOException;
 
 public class RegistrationActivity extends AppCompatActivity {
 
-    private EditText userName, userPassword, userEmail, userAge;
+    private EditText userName, userPassword, userEmail, userAge, userrepass;
     private Button regButton;
     private TextView userLogin;
     private FirebaseAuth firebaseAuth;
     private ImageView userProfilePic;
-    String email, age, name, password, istatus, role;
+    String email, age, name, password, istatus, role, reenterpass;
     private FirebaseStorage firebaseStorage;
     private static int PICK_IMAGE = 123;
     Uri imagePath;
@@ -120,6 +120,7 @@ public class RegistrationActivity extends AppCompatActivity {
         userPassword = (EditText) findViewById(R.id.etUserPassword);
         userEmail = (EditText) findViewById(R.id.etUserEmail);
         regButton = (Button) findViewById(R.id.btnRegister);
+        userrepass = (EditText) findViewById(R.id.etReUserPassword);
 
         userAge = (EditText)findViewById(R.id.etAge);
         userProfilePic = (ImageView) findViewById(R.id.ivProfile);
@@ -131,17 +132,21 @@ public class RegistrationActivity extends AppCompatActivity {
         password = userPassword.getText().toString();
         email = userEmail.getText().toString();
         age = userAge.getText().toString();
+        reenterpass = userrepass.getText().toString();
 
 
 
 
-
-        if (!name.isEmpty() && !password.isEmpty() && !email.isEmpty() && !age.isEmpty() && imagePath != null){
+        if (!name.isEmpty() && !password.isEmpty() && !email.isEmpty() && !age.isEmpty() && imagePath != null && !reenterpass.isEmpty()){
             if (password.length()>7 ){
-                if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    result = true;
+                if (password.equals(reenterpass)){
+                    if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                        result = true;
+                    }else{
+                        Toast.makeText(this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
-                    Toast.makeText(this, "Invalid email address", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Please make sure enter same password twice", Toast.LENGTH_SHORT).show();
                 }
             }else  {
                 Toast.makeText(this, "Please make sure password more or equal to 8 characters or digits", Toast.LENGTH_SHORT).show();

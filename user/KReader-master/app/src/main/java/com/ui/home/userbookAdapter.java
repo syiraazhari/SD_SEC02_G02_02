@@ -41,6 +41,7 @@ public class userbookAdapter extends FirebaseRecyclerAdapter<AdminBook,userbookA
         holder.name.setText(model.getAdminBookName());
         holder.title.setText(model.getAdminBookName());
         holder.price.setText(model.getAdminbookPrice());
+        holder.des.setText(model.getAdminBookDescription());
 
         firebaseStorage = FirebaseStorage.getInstance();
 
@@ -63,7 +64,7 @@ public class userbookAdapter extends FirebaseRecyclerAdapter<AdminBook,userbookA
 
     class userbookViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name, price, title;
+        TextView name, price, title, des;
         ImageView pic;
 
         public userbookViewHolder(@NonNull View itemView) {
@@ -73,6 +74,7 @@ public class userbookAdapter extends FirebaseRecyclerAdapter<AdminBook,userbookA
             price = itemView.findViewById(R.id.textbook32);
             title = itemView.findViewById(R.id.titlebook);
             pic = itemView.findViewById(R.id.ivBookPic);
+            des = itemView.findViewById(R.id.textbook42);
         }
     }
 }

@@ -11,8 +11,8 @@
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="20dp"
         android:fontFamily="@font/architects_daughter"
+        android:padding="20dp"
 
         android:text="This application, UTM Laibrary app is an online bookign app which mainly design for the usage in lbrary. User can record the booking record for books and study rooms inside this application. WHile at the same time, users can read the epub file inside this app. Users can get notification to remind thme to return the books also."
         android:textSize="18dp"
@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
+        app:layout_constraintVertical_bias="0.894" />
 
     <TextView
         android:id="@+id/textView40"
